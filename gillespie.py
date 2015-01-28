@@ -96,6 +96,7 @@ class Gillespie():
 		else:
 			return 0
 
+# To change systems, comment either line 101 OR 102 respectively
 G = Gillespie()
 G.run(19999,1,1,'sys1',[])
 # G.run(200, 100, 0,'sys2',[2, -2, 900, 800, 200, 2, 20, 3])
